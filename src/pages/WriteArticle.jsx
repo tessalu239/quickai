@@ -33,7 +33,7 @@ const WriteArticle = () => {
         <p className="mt-4 text-sm font-medium">Article Length</p>
         <div className="flex flex-wrap gap-3 mt-3 sm:max-w-9/11">
           {articleLengthOptions.map((option, index)=>(
-            <span onClick={()=> setSelectedLength(option)} className={`px-4 py-1 text-sm rounded-full border cursor-pointer ${selectedLength.display === option.display? 'bg-blue-50 text-blue-700':"text-gray-500 border-gray-300"}`} key={index}>{option.display}</span>
+            <span onClick={()=> setSelectedLength(option)} className={`px-4 py-1 text-xs rounded-full border cursor-pointer ${selectedLength.display === option.display? 'bg-blue-50 text-blue-700':"text-gray-500 border-gray-300"}`} key={index}>{option.display}</span>
           ))}
         </div>
         <br/>

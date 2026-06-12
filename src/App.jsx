@@ -8,6 +8,7 @@ import ReviewResume from "./pages/ReviewResume";
 import RemoveBackgroun from "./pages/RemoveBackground";
 import RemoveObject from "./pages/RemoveObject";
 import Dashboard from "./pages/Dashboard";
+import Communities from "./pages/Communities";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="review-resume" element={<ReviewResume />} />
           <Route path="remove-background" element={<RemoveBackgroun />} />
           <Route path="remove-object" element={<RemoveObject />} />
+          <Route path="community" element={<Communities/>}/>
         </Route>
       </Routes>
     </div>
